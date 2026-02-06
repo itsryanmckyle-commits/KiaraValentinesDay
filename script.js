@@ -5,11 +5,11 @@ const letterText = document.getElementById("letterText");
 const restartBtn = document.getElementById("restartBtn");
 
 const messages = [
-  "You make my world brighter 💖",
-  "I choose you every day 🌷",
-  "You’re my favorite person 🧸",
-  "You + Me = Perfect ❤️",
-  "Forever starts now 💌"
+  " id choose you over and over kiara 🌷💖",
+  "id choose you over and over kiara 🌷",
+  "id choose you over and over kiara 🌷 🧸",
+  "id choose you over and over kiara 🌷 ❤️",
+  "id choose you over and over kiara 🌷  💌"
 ];
 
 letterText.textContent =
