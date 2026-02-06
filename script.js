@@ -5,7 +5,7 @@ const letterText = document.getElementById("letterText");
 const restartBtn = document.getElementById("restartBtn");
 
 const messages = [
-  " id choose you over and over kiara 🌷💖",
+  " id choose you over and over kiara 🌷 💖",
   "id choose you over and over kiara 🌷",
   "id choose you over and over kiara 🌷 🧸",
   "id choose you over and over kiara 🌷 ❤️",
