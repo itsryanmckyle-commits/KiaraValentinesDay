@@ -49,3 +49,28 @@ restartBtn.addEventListener("click", () => {
     //simplest + safest reset
     window.location.reload();
 });
+const noBtn = document.getElementById("noBtn");
+
+const messages = [
+  "Hey! Don’t run 😳",
+  "Nope, try again 💕",
+  "You’re gonna have to say yes 😌",
+  "Nice try 😏",
+  "Just click yes already 💖"
+];
+
+noBtn.addEventListener("mouseover", () => {
+  // Move button
+  const x = Math.random() * (window.innerWidth - noBtn.offsetWidth);
+  const y = Math.random() * (window.innerHeight - noBtn.offsetHeight);
+
+  noBtn.style.position = "absolute";
+  noBtn.style.left = `${x}px`;
+  noBtn.style.top = `${y}px`;
+
+  // Show popup
+  const randomMessage =
+    messages[Math.floor(Math.random() * messages.length)];
+
+  alert(randomMessage);
+});
